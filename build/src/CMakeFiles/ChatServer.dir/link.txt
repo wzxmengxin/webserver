@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/ChatServer.dir/http_conn.cpp.o CMakeFiles/ChatServer.dir/main.cpp.o  -o ../../bin/ChatServer -lpthread 
