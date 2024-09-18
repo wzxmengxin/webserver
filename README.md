@@ -1,6 +1,6 @@
 # WebServer
 
-用C++实现的高性能WEB服务器，经过webbenchh压力测试可以实现7000+的QPS
+用C++实现的高性能WEB服务器，经过webbenchh压力测试可以实现9000+的QPS
 
 
 
@@ -81,10 +81,10 @@ make
 ./webbench -c 100 -t 10 http://127.0.0.1:9999/index.html
 ./webbench -c 1000 -t 10 http://127.0.0.1:9999/index.html
 ./webbench -c 5000 -t 10 http://127.0.0.1:9999/index.html
-./webbench -c 7000 -t 10 http://127.0.0.1:9999/index.html
+./webbench -c 9000 -t 10 http://127.0.0.1:9999/index.html
 
 //-c 连接数  -t 时间
 ```
 
 * 测试环境: Ubuntu:18.04虚拟机  4核4G
-* QPS 7000+
+* QPS 9000+
